@@ -33,7 +33,7 @@ namespace _2
             }
             return -1;
         }
-        // Асимптотическая сложность O(N)
+        // РђСЃРёРјРїС‚РѕС‚РёС‡РµСЃРєР°СЏ СЃР»РѕР¶РЅРѕСЃС‚СЊ O(N)
         static void Test(TestCase testCase)
         {
             try
