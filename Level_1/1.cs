@@ -1,4 +1,4 @@
-using System;
+п»їusing System;
 
 namespace Level_1
 {
@@ -24,11 +24,11 @@ namespace Level_1
             }
             if (d == 0)
             {
-                return ("Простое");
+                return ("ГЏГ°Г®Г±ГІГ®ГҐ");
             }
             else
             {
-                return ("Не простое");
+                return ("ГЌГҐ ГЇГ°Г®Г±ГІГ®ГҐ");
             }
         }
         static void Test(TestCase testCase)
@@ -63,37 +63,37 @@ namespace Level_1
             var testCase1 = new TestCase()
             {
                 N = 43,
-                Expected = "Простое",
+                Expected = "ГЏГ°Г®Г±ГІГ®ГҐ",
                 ExpectedException = null
             };
             var testCase2 = new TestCase()
             {
                 N = 4,
-                Expected = "Не простое",
+                Expected = "ГЌГҐ ГЇГ°Г®Г±ГІГ®ГҐ",
                 ExpectedException = null
             };
             var testCase3 = new TestCase()
             {
                 N = 457,
-                Expected = "Простое",
+                Expected = "ГЏГ°Г®Г±ГІГ®ГҐ",
                 ExpectedException = null
             };
             var testCase4 = new TestCase()
             {
                 N = 8,
-                Expected = "Простое",
+                Expected = "ГЏГ°Г®Г±ГІГ®ГҐ",
                 ExpectedException = null
             };
             var testCase5 = new TestCase()
             {
                 N = 2,
-                Expected = "Не простое",
+                Expected = "ГЌГҐ ГЇГ°Г®Г±ГІГ®ГҐ",
                 ExpectedException = null
             };
             var testCase6 = new TestCase()
             {
                 N = 1,
-                Expected = "Не простое",
+                Expected = "ГЌГҐ ГЇГ°Г®Г±ГІГ®ГҐ",
                 ExpectedException = null
             };
 
