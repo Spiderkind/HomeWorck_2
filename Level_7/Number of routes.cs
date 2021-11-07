@@ -9,7 +9,7 @@ namespace _1
         {
             int error = 1;
             int[] len = new int[0];
-            Console.WriteLine("Введите размер поля N и M через пробел: ");
+            Console.WriteLine("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё N Рё M С‡РµСЂРµР· РїСЂРѕР±РµР»: ");
             while (error != 0 | len.Length != 2)
             {
                 try
@@ -17,12 +17,12 @@ namespace _1
                     string input = Console.ReadLine();
                     len = input.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
                     if (len.Length != 2)
-                        Console.WriteLine("Введено <> 2 чисел, введите еще раз");
+                        Console.WriteLine("Р’РІРµРґРµРЅРѕ <> 2 С‡РёСЃРµР», РІРІРµРґРёС‚Рµ РµС‰Рµ СЂР°Р·");
                     error = 0;
                 }
                 catch
                 {
-                    Console.WriteLine("Введены не числа, введите еще раз");
+                    Console.WriteLine("Р’РІРµРґРµРЅС‹ РЅРµ С‡РёСЃР»Р°, РІРІРµРґРёС‚Рµ РµС‰Рµ СЂР°Р·");
                 }
             }
             int N = len[0];
